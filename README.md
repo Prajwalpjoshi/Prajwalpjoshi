@@ -1,21 +1,101 @@
-# 💫 About Me:
-🔭  I Work on Javascript Tools like React & Node<br>🌱 I’m currently learning  TypeScript | Next.js <br>💬️ Ask me about: React | JavaScript | MERN Stack<br>📫 How to reach me prajwaljoshi1856@gmail.com
+<div align="center">
 
+# Hi, I'm Prajwal P Joshi 👋
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/PrajwalJoshi) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/itz_mr.joshi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prajwalpjoshi) 
+### Software Engineer · Full-Stack Development · Developer Tools
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=flat&logo=nodemon&logoColor=%BBDEAD) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=prajwalpjoshi&theme=radical&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=prajwalpjoshi&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=prajwalpjoshi&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+I build reliable web applications, APIs, automation workflows, and cloud-ready systems.  
+I enjoy turning engineering problems into practical products—with a focus on performance, testing, and developer experience.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://prajwal-joshi.onrender.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prajwal-joshi-a67460271/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prajwaljoshi1856@gmail.com)
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=prajwalpjoshi&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 What I Build
+
+- **Backend & APIs:** TypeScript, Node.js, Express, REST APIs, authentication, and integrations.
+- **Caching & Performance:** Redis-based caching, rate limiting, health checks, and performance benchmarking.
+- **Automation & Quality:** Playwright, API testing, regression suites, and reliable test workflows.
+- **Cloud & Delivery:** Docker, GitHub Actions, and AWS fundamentals for deployment and operations.
+- **Full-stack products:** React, Next.js, and database-backed applications.
+
+## 🧩 Featured Project
+
+### [CacheForge](https://cacheforge.netlify.app/)
+A TypeScript-focused platform for exploring Redis caching, API behavior, health checks, and performance benchmarking.
+
+**Focus:** TypeScript · Redis · Node.js · APIs · Performance · Developer Experience
+
+## 🌱 Currently Exploring
+
+- **Redis & Advanced Caching:** Cache strategies, rate limiting, queues, and practical Redis use cases.
+- **Distributed Systems:** System design fundamentals, scalability, and reliable service communication.
+- **AI Agents & Developer Tools:** Exploring agent workflows and automation for useful developer experiences.
+
+## 🛠️ Tech Stack
+
+### Languages
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222)
+![Python Basics](https://img.shields.io/badge/Python-Basic-3776AB?style=flat-square&logo=python&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+### Backend & Data
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### Testing, DevOps & Tools
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Fundamentals-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Prajwaljposhi&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prajwaljposhi&layout=compact&hide_border=true" alt="Most used languages" />
+
+<img src="https://streak-stats.demolab.com?user=Prajwaljposhi&hide_border=true" alt="GitHub contribution streak" />
+
+</div>
+
+## 🌱 Currently Focused On
+
+- Building production-minded TypeScript and Node.js systems.
+- Improving DSA and software engineering fundamentals.
+- Deepening knowledge of Redis, distributed systems, testing, and cloud deployment.
+- Exploring AI agents and practical developer workflows.
+
+## 🤝 Let's Connect
+
+I'm interested in opportunities involving full-stack engineering, backend/API development, developer tools, automation, and cloud-oriented product engineering.
+
+- 🌐 Portfolio: [prajwal-joshi.onrender.com](https://prajwal-joshi.onrender.com)
+- 💼 LinkedIn: [Prajwal Joshi](https://www.linkedin.com/in/prajwal-joshi-a67460271/)
+- 📧 Email: [prajwaljoshi1856@gmail.com](mailto:prajwaljoshi1856@gmail.com)
+
+---
+
+<div align="center">
+
+*Build useful things. Test them well. Keep learning.*
+
+</div>

@@ -1,64 +1,79 @@
-# Prajwal P Joshi
+<!-- Profile README for github.com/Prajwalpjoshi. Card graphics live in ./assets (light + dark variants). -->
 
-**Software Engineer · Full-Stack Development · Backend Systems · Cloud & Automation**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero-art.svg">
+  <img align="right" width="300" src="assets/light/hero-art.svg" alt="Illustration of a developer working at a laptop">
+</picture>
 
-Bengaluru, India · [LinkedIn](https://www.linkedin.com/in/prajwal-joshi-a67460271/) · [Email](mailto:prajwaljoshi1856@gmail.com)
-<!-- Portfolio link removed while https://prajwal-joshi.onrender.com is suspended on Render. Re-add once it is back online:
-· [Portfolio](https://prajwal-joshi.onrender.com) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero-title.svg">
+  <img width="460" src="assets/light/hero-title.svg" alt="Hi, I'm Prajwal 👋 — Software Engineer • Full-Stack • Developer Tools">
+</picture>
 
-I build web applications and backend services with TypeScript, React, Next.js and Node.js. Much of my work sits between application code and the systems around it: APIs, databases and caching, automated tests, containers and CI, and finding out why a service is misbehaving.
+I turn engineering problems into reliable software. I build full-stack applications, backend APIs and test automation, with a particular interest in caching, performance and cloud-ready delivery.
 
-## Engineering focus
+<a href="https://prajwal-joshi.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-portfolio.svg"><img height="36" src="assets/light/btn-portfolio.svg" alt="Portfolio"></picture></a>
+<a href="https://www.linkedin.com/in/prajwal-joshi-a67460271/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-linkedin.svg"><img height="36" src="assets/light/btn-linkedin.svg" alt="LinkedIn"></picture></a>
+<a href="https://github.com/Prajwalpjoshi?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-github.svg"><img height="36" src="assets/light/btn-github.svg" alt="GitHub Projects"></picture></a>
 
-- **Backend APIs:** Node.js, Express and Fastify services with input validation, authentication (JWT, OAuth) and role-based access control.
-- **Data and caching:** PostgreSQL and Prisma, with Redis for caching, rate limiting and pub/sub.
-- **Testing:** Playwright for end-to-end tests, Vitest for unit and integration tests, and Postman for exploring APIs.
-- **Reliability and delivery:** health checks, retry/backoff, structured logging, Docker and GitHub Actions pipelines.
+<br clear="right">
 
-## Featured project: CacheForge
+<h3><img src="assets/icons/cube.svg" width="20" height="20" alt=""> What I Build</h3>
 
-[Repository](https://github.com/Prajwalpjoshi/cacheforge) · [Live demo](https://cacheforge.netlify.app/)
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/build-backend.svg"><img width="204" src="assets/light/build-backend.svg" alt="Backend & APIs: REST APIs with Node.js, TypeScript, Express and Fastify, plus validation and JWT/OAuth auth."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/build-caching.svg"><img width="204" src="assets/light/build-caching.svg" alt="Caching & Performance: Redis caching, rate limiting and pub/sub, with latency metrics and benchmarking."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/build-automation.svg"><img width="204" src="assets/light/build-automation.svg" alt="Automation & Testing: E2E and API testing with Playwright, Vitest and Postman, wired into CI pipelines."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/build-cloud.svg"><img width="204" src="assets/light/build-cloud.svg" alt="Cloud & DevOps: Containerized services with Docker, GitHub Actions CI/CD and AWS fundamentals."></picture>
+</p>
 
-A lab for measuring API performance with and without a cache. A small product-catalog API runs against a real PostgreSQL database and a real Redis instance, so you can watch the effect of caching on real requests rather than a simulation.
+<h3><img src="assets/icons/star.svg" width="20" height="20" alt=""> Featured Project</h3>
 
-- Cache-aside reads with TTLs, plus explicit cache invalidation when data is written.
-- A Redis-backed fixed-window rate limiter on write and benchmark endpoints, which returns `429` with `Retry-After`.
-- Redis pub/sub events whenever a product is written.
-- A metric record for every request, summarised as P50/P95/P99 latency, error rate and cache hit rate.
-- A Performance Lab page that benchmarks database-only reads against cached reads.
-- A health endpoint that reports PostgreSQL and Redis separately. If Redis is unavailable, reads fall back to PostgreSQL.
-- Vitest unit and integration tests across the API, the web app and the shared packages.
+<p>
+<a href="https://github.com/Prajwalpjoshi/cacheforge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/featured-cacheforge.svg"><img width="412" src="assets/light/featured-cacheforge.svg" alt="CacheForge: a full-stack TypeScript lab for measuring API performance against a real PostgreSQL database and Redis — cache-aside reads, invalidation on writes, rate limiting, pub/sub, P50/P95/P99 latency metrics and health checks. Built with Next.js, TypeScript, Fastify, PostgreSQL, Prisma, Redis, Vitest and Docker Compose."></picture></a>
+<a href="https://cacheforge.netlify.app/"><img width="412" src="assets/cacheforge-preview.svg" alt="CacheForge preview: Observe. Cache. Measure. Optimize. Requests flow from the client to the Fastify API and are served from Redis on a cache hit or PostgreSQL on a miss."></a>
+</p>
 
-**Stack:** Next.js, TypeScript, Tailwind CSS, Fastify, Zod, Pino, PostgreSQL, Prisma, Redis, Vitest, Docker Compose, pnpm workspaces
+<p>
+<a href="https://github.com/Prajwalpjoshi/cacheforge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-view-github.svg"><img height="30" src="assets/light/link-view-github.svg" alt="View on GitHub"></picture></a>
+&nbsp;
+<a href="https://cacheforge.netlify.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-live-demo.svg"><img height="30" src="assets/light/link-live-demo.svg" alt="Live Demo"></picture></a>
+</p>
 
-## Other public projects
+<h3><img src="assets/icons/rocket.svg" width="20" height="20" alt=""> Currently Exploring <sub>(Learning / In Progress)</sub></h3>
 
-- [ai-devops-security-assistant](https://github.com/Prajwalpjoshi/ai-devops-security-assistant): a MERN application that uses an LLM to analyse logs, scan for vulnerabilities and generate test cases. It has JWT and Google OAuth sign-in, Docker, and a GitHub Actions build.
-- [playwright-ui-api-automation-framework](https://github.com/Prajwalpjoshi/playwright-ui-api-automation-framework): e-commerce UI and API tests built with Playwright, the Page Object Model and GitHub Actions.
-- [selenium-python-file-automation](https://github.com/Prajwalpjoshi/selenium-python-file-automation): file upload and download tests built with Selenium, pytest and headless CI runs.
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/explore-redis.svg"><img width="274" src="assets/light/explore-redis.svg" alt="Redis & Advanced Caching: distributed caching patterns, rate limiting, queues and real-world Redis use cases. Learning, in progress."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/explore-distributed.svg"><img width="274" src="assets/light/explore-distributed.svg" alt="Distributed Systems: system design concepts, scalability, message queues and event-driven architecture. Learning, in progress."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/explore-ai.svg"><img width="274" src="assets/light/explore-ai.svg" alt="AI Agents & Developer Tools: AI agents, LLM tooling and automation workflows for developer-focused tools. Learning, in progress."></picture>
+</p>
 
-## Technical skills
+<h3><img src="assets/icons/layers.svg" width="20" height="20" alt=""> Tech Stack</h3>
 
-| Area | Tools and practices |
-|---|---|
-| Languages | JavaScript, TypeScript, Python |
-| Frontend | React, Next.js, Angular, Tailwind CSS |
-| Backend | Node.js, Express, Fastify, REST APIs, WebSockets |
-| Data | PostgreSQL, MySQL, MongoDB, Redis, Prisma |
-| Testing | Playwright, Vitest, Postman, API and integration testing |
-| DevOps and cloud | Linux/WSL, Git, Docker, Docker Compose, GitHub Actions, CI/CD, AWS fundamentals |
-| Security and reliability | JWT, OAuth, RBAC, service health monitoring, retry/backoff, troubleshooting |
-| Workflow | AI-assisted development |
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-languages.svg"><img width="134" src="assets/light/tech-languages.svg" alt="Languages: TypeScript, JavaScript, Python"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-frontend.svg"><img width="134" src="assets/light/tech-frontend.svg" alt="Frontend: React, Next.js, Angular, Tailwind CSS"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-backend.svg"><img width="134" src="assets/light/tech-backend.svg" alt="Backend: Node.js, Express, Fastify, REST APIs"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-data.svg"><img width="134" src="assets/light/tech-data.svg" alt="Databases & Data: PostgreSQL, Redis, MongoDB, MySQL, Prisma"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-testing.svg"><img width="134" src="assets/light/tech-testing.svg" alt="Testing & Tools: Playwright, Vitest, Postman, Git"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tech-devops.svg"><img width="134" src="assets/light/tech-devops.svg" alt="DevOps & Cloud: Docker, GitHub Actions, AWS (basics), Linux / WSL"></picture>
+</p>
 
-## Currently learning
+<h3><img src="assets/icons/chart.svg" width="20" height="20" alt=""> GitHub Activity</h3>
 
-- **Distributed systems:** replication, message queues and event-driven design.
-- **Redis beyond caching:** distributed rate limiting, queues and cache consistency.
-- **AI developer tools:** agent workflows and practical automation for engineering teams.
-- **Fundamentals:** data structures, algorithms and system design.
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Prajwalpjoshi&show_icons=true&hide_rank=true&hide_border=true&theme=github_dark&bg_color=0d1117&cache_seconds=86400"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Prajwalpjoshi&show_icons=true&hide_rank=true&hide_border=true&cache_seconds=86400" alt="GitHub stats for Prajwalpjoshi"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Prajwalpjoshi&layout=compact&langs_count=6&hide_border=true&theme=github_dark&bg_color=0d1117&cache_seconds=86400"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prajwalpjoshi&layout=compact&langs_count=6&hide_border=true&cache_seconds=86400" alt="Most used languages for Prajwalpjoshi"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Prajwalpjoshi&hide_border=true&theme=dark&background=0d1117"><img height="165" src="https://streak-stats.demolab.com/?user=Prajwalpjoshi&hide_border=true" alt="Contribution history for Prajwalpjoshi"></picture>
+</p>
 
-## Contact
+---
 
-I'm open to Software Engineer, Full-Stack, Backend and developer-tools roles.
-
-[LinkedIn](https://www.linkedin.com/in/prajwal-joshi-a67460271/) · [Email](mailto:prajwaljoshi1856@gmail.com) · [GitHub](https://github.com/Prajwalpjoshi)
+<p align="center">
+Bengaluru, India ·
+<a href="https://www.linkedin.com/in/prajwal-joshi-a67460271/">LinkedIn</a> ·
+<a href="mailto:prajwaljoshi1856@gmail.com">prajwaljoshi1856@gmail.com</a> ·
+<a href="https://github.com/Prajwalpjoshi/cacheforge">CacheForge</a>
+<br>
+<sub>Open to Software Engineer, Full-Stack, Backend and developer-tools roles.</sub>
+</p>

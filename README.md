@@ -1,8 +1,8 @@
 <!-- Profile README for github.com/Prajwalpjoshi. Card graphics live in ./assets (light + dark variants). -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero-title.svg">
-  <img width="460" src="assets/light/hero-title.svg" alt="Hi, I'm Prajwal 👋 — Software Engineer • Full-Stack • Developer Tools">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero-art.svg">
+  <img align="right" width="300" src="assets/light/hero-art.svg" alt="Illustration of a developer working at a laptop">
 </picture>
 
 I turn engineering problems into reliable software. I build full-stack applications, backend APIs and test automation, with a particular interest in caching, performance and cloud-ready delivery.

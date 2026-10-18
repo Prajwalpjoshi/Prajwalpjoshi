@@ -1,143 +1,64 @@
-<!-- Profile README for github.com/Prajwaljposhi -->
+# Prajwal P Joshi
 
-<h1>Hi, I'm Prajwal 👋</h1>
+**Software Engineer · Full-Stack Development · Backend Systems · Cloud & Automation**
 
-<h3>Software Engineer • Full-Stack • Developer Tools</h3>
+Bengaluru, India · [LinkedIn](https://www.linkedin.com/in/prajwal-joshi-a67460271/) · [Email](mailto:prajwaljoshi1856@gmail.com)
+<!-- Portfolio link removed while https://prajwal-joshi.onrender.com is suspended on Render. Re-add once it is back online:
+· [Portfolio](https://prajwal-joshi.onrender.com) -->
 
-<p>
-I turn engineering problems into reliable products. I enjoy building full-stack applications,
-developer tools, automation workflows, and cloud-ready solutions.
-</p>
+I build web applications and backend services with TypeScript, React, Next.js and Node.js. Much of my work sits between application code and the systems around it: APIs, databases and caching, automated tests, containers and CI, and finding out why a service is misbehaving.
 
-<p>
-  <a href="https://prajwal-joshi.onrender.com"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/prajwal-joshi-a67460271/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/Prajwaljposhi?tab=repositories"><img src="https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" /></a>
-  <a href="mailto:prajwaljoshi1856@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+## Engineering focus
 
----
+- **Backend APIs:** Node.js, Express and Fastify services with input validation, authentication (JWT, OAuth) and role-based access control.
+- **Data and caching:** PostgreSQL and Prisma, with Redis for caching, rate limiting and pub/sub.
+- **Testing:** Playwright for end-to-end tests, Vitest for unit and integration tests, and Postman for exploring APIs.
+- **Reliability and delivery:** health checks, retry/backoff, structured logging, Docker and GitHub Actions pipelines.
 
-## 🧊 What I Build
+## Featured project: CacheForge
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h4>⚙️ Backend & APIs</h4>
-      Scalable APIs with Node.js, TypeScript, Express, Fastify and REST architectures.
-    </td>
-    <td width="25%" valign="top">
-      <h4>🧱 Caching & Performance</h4>
-      Redis-based solutions, performance benchmarking and scalable system design.
-    </td>
-    <td width="25%" valign="top">
-      <h4>🧪 Automation & Testing</h4>
-      E2E testing, API testing, and automation frameworks for reliable software.
-    </td>
-    <td width="25%" valign="top">
-      <h4>☁️ Cloud & DevOps</h4>
-      Containerized applications with Docker, AWS services and CI/CD pipelines.
-    </td>
-  </tr>
-</table>
+[Repository](https://github.com/Prajwalpjoshi/cacheforge) · [Live demo](https://cacheforge.netlify.app/)
 
-## ⭐ Featured Project
+A lab for measuring API performance with and without a cache. A small product-catalog API runs against a real PostgreSQL database and a real Redis instance, so you can watch the effect of caching on real requests rather than a simulation.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗄️ CacheForge</h3>
-      <p>A full-stack TypeScript platform for exploring Redis caching, API performance, health checks, and benchmarking. Demonstrates real-world caching patterns, observability, and performance improvements.</p>
-      <ul>
-        <li>Cache-aside caching, write invalidation, rate limiting and pub/sub</li>
-        <li>Dashboards for request volume, latency, cache stats and system health</li>
-        <li>Automated tests and structured logging for reliability</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      </p>
-      <p>
-        <a href="https://github.com/Prajwaljposhi?tab=repositories">🐙 View on GitHub</a> &nbsp;·&nbsp;
-        <a href="https://cacheforge.netlify.app/">🔗 Live Demo</a>
-      </p>
-    </td>
-    <td width="50%" valign="middle" align="center">
-      <a href="https://cacheforge.netlify.app/">
-        <img src="./assets/cacheforge-preview.png" alt="CacheForge dashboard preview" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
+- Cache-aside reads with TTLs, plus explicit cache invalidation when data is written.
+- A Redis-backed fixed-window rate limiter on write and benchmark endpoints, which returns `429` with `Retry-After`.
+- Redis pub/sub events whenever a product is written.
+- A metric record for every request, summarised as P50/P95/P99 latency, error rate and cache hit rate.
+- A Performance Lab page that benchmarks database-only reads against cached reads.
+- A health endpoint that reports PostgreSQL and Redis separately. If Redis is unavailable, reads fall back to PostgreSQL.
+- Vitest unit and integration tests across the API, the web app and the shared packages.
 
-## 🚀 Currently Exploring <sub>(Learning / In Progress)</sub>
+**Stack:** Next.js, TypeScript, Tailwind CSS, Fastify, Zod, Pino, PostgreSQL, Prisma, Redis, Vitest, Docker Compose, pnpm workspaces
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🧱 Redis & Advanced Caching</h4>
-      Distributed caching patterns, rate limiting, queues and real-world use cases with Redis.<br/><br/>
-      <img src="https://img.shields.io/badge/Learning-In_Progress-F59E0B?style=flat-square" />
-    </td>
-    <td width="33%" valign="top">
-      <h4>🕸️ Distributed Systems</h4>
-      System design concepts, scalability, message queues and event-driven architectures.<br/><br/>
-      <img src="https://img.shields.io/badge/Learning-In_Progress-8B5CF6?style=flat-square" />
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧠 AI Agents & Developer Tools</h4>
-      AI agents, LLM tools and automation workflows to build useful developer-focused tools.<br/><br/>
-      <img src="https://img.shields.io/badge/Learning-In_Progress-10B981?style=flat-square" />
-    </td>
-  </tr>
-</table>
+## Other public projects
 
-## 🧰 Tech Stack
+- [ai-devops-security-assistant](https://github.com/Prajwalpjoshi/ai-devops-security-assistant): a MERN application that uses an LLM to analyse logs, scan for vulnerabilities and generate test cases. It has JWT and Google OAuth sign-in, Docker, and a GitHub Actions build.
+- [playwright-ui-api-automation-framework](https://github.com/Prajwalpjoshi/playwright-ui-api-automation-framework): e-commerce UI and API tests built with Playwright, the Page Object Model and GitHub Actions.
+- [selenium-python-file-automation](https://github.com/Prajwalpjoshi/selenium-python-file-automation): file upload and download tests built with Selenium, pytest and headless CI runs.
 
-<table>
-  <tr>
-    <th>Languages</th><th>Frontend</th><th>Backend</th><th>Databases & Caching</th><th>Testing & Tools</th><th>DevOps & Cloud</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=ts,js,python&perline=1" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=react,nextjs,angular,vite,tailwind&perline=1" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,prisma&perline=1" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=redis,postgres,mongodb,mysql&perline=1" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=postman,vitest,linux,git&perline=1" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=docker,githubactions,aws,vercel&perline=1" /></td>
-  </tr>
-  <tr>
-    <td>TypeScript<br/>JavaScript<br/>Python</td>
-    <td>React<br/>Next.js<br/>Angular<br/>Vite<br/>Tailwind CSS</td>
-    <td>Node.js<br/>Express / Fastify<br/>REST & WebSockets</td>
-    <td>Redis<br/>PostgreSQL<br/>MongoDB<br/>MySQL</td>
-    <td>Playwright<br/>Vitest · Postman<br/>Linux/WSL · Git</td>
-    <td>Docker & Compose<br/>GitHub Actions<br/>AWS (fundamentals)<br/>Vercel / Render</td>
-  </tr>
-</table>
+## Technical skills
 
-## 📊 GitHub Activity
+| Area | Tools and practices |
+|---|---|
+| Languages | JavaScript, TypeScript, Python |
+| Frontend | React, Next.js, Angular, Tailwind CSS |
+| Backend | Node.js, Express, Fastify, REST APIs, WebSockets |
+| Data | PostgreSQL, MySQL, MongoDB, Redis, Prisma |
+| Testing | Playwright, Vitest, Postman, API and integration testing |
+| DevOps and cloud | Linux/WSL, Git, Docker, Docker Compose, GitHub Actions, CI/CD, AWS fundamentals |
+| Security and reliability | JWT, OAuth, RBAC, service health monitoring, retry/backoff, troubleshooting |
+| Workflow | AI-assisted development |
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prajwaljposhi&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prajwaljposhi&layout=compact&hide_border=true" alt="Most Used Languages" />
-</p>
+## Currently learning
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prajwaljposhi&hide_border=true&area=true" alt="Contributions (Last 12 Months)" />
-</p>
+- **Distributed systems:** replication, message queues and event-driven design.
+- **Redis beyond caching:** distributed rate limiting, queues and cache consistency.
+- **AI developer tools:** agent workflows and practical automation for engineering teams.
+- **Fundamentals:** data structures, algorithms and system design.
 
-## 🤝 Let's Connect
+## Contact
 
-I'm interested in software engineering opportunities in full-stack development, backend systems, developer tools, and cloud-oriented application engineering.
+I'm open to Software Engineer, Full-Stack, Backend and developer-tools roles.
 
-📍 Bengaluru, India &nbsp;·&nbsp; 🌐 [prajwal-joshi.onrender.com](https://prajwal-joshi.onrender.com) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/prajwal-joshi-a67460271/) &nbsp;·&nbsp; ✉️ [prajwaljoshi1856@gmail.com](mailto:prajwaljoshi1856@gmail.com)
-
----
-
-<sub>Building, testing, learning, and improving one iteration at a time.</sub>
+[LinkedIn](https://www.linkedin.com/in/prajwal-joshi-a67460271/) · [Email](mailto:prajwaljoshi1856@gmail.com) · [GitHub](https://github.com/Prajwalpjoshi)

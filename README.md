@@ -5,11 +5,6 @@
   <img width="460" src="assets/light/hero-title.svg" alt="Hi, I'm Prajwal 👋 — Software Engineer • Full-Stack • Developer Tools">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero-title.svg">
-  <img width="460" src="assets/light/hero-title.svg" alt="Hi, I'm Prajwal 👋 — Software Engineer • Full-Stack • Developer Tools">
-</picture>
-
 I turn engineering problems into reliable software. I build full-stack applications, backend APIs and test automation, with a particular interest in caching, performance and cloud-ready delivery.
 
 <a href="https://prajwal-joshi.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-portfolio.svg"><img height="36" src="assets/light/btn-portfolio.svg" alt="Portfolio"></picture></a>
